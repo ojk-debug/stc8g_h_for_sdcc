@@ -1,0 +1,1 @@
+sdcc pn.c && packihx pn.ihx > pn.hex && sudo stcgal -P auto -p /dev/ttyUSB0 pn.hex
